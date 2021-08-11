@@ -1,0 +1,223 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.menu ul li{
+    list-style: none;
+    margin: 0 20px;
+    
+        
+    
+
+}
+
+.menu ul{
+    display: flex;
+}
+
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    
+    
+   
+}
+
+header{
+    background:rgba(18, 1, 65, 0.986);
+    background-size: cover; /*EL FONDO SE ADAPTA A LA PANTALLA*/
+    height: 100vh; /*RESPECTA EL 100% ALTO DE LA VENTANA*/
+    
+    
+}
+
+.logoymenu{
+    display: flex;
+    align-items: center;/*CENTRA DE FORMA VERTICAL*/
+    justify-content: space-between;/*JUSTIFICA AL COSTADO*/
+
+}
+
+.logoymenu img{
+    width: 200px;
+}
+
+.iconoytitulo{
+    text-align: center;
+    margin-top: 40vh; /*TOMA LA ALTURA DEL NAVEGADOR*/
+    color: rgb(255, 255, 255);
+    line-height: 25px;
+    
+}
+
+h1{
+    font-size: 80px;
+    font-style: italic;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: -130PX;
+  
+    
+}
+
+
+.iconoytitulo a{ 
+    background: black;
+    color: chartreuse;
+    padding: 20px 40px; /*20px ARRIBA Y ABAJO 30PX LOS COSTADOS*/
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+.contenedor-tarjetas{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.tarjeta{
+    text-align: center;
+    box-shadow: -1px 0px 5px #0000001f;
+    width: 50%;
+    background: white;
+    margin-top: -100px;
+    padding: 40px 0;
+    border-radius: 10px;
+    text-justify: auto;
+    
+}
+
+#tarjetamaestro{
+    margin: 0 60px;
+    margin-top: -100px;
+}
+
+.tarjeta img{
+    width: 150px;
+    
+ }
+
+ .tarjeta a{
+     text-decoration: underline;
+     color:black;
+     font-size: 14px;
+     font-weight: bold;
+
+ }
+ 
+ .tarjeta h3{
+     font-weight: bold;
+     color: black;
+     font-size: 20px;
+ }
+
+  
+                        
+.padre{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 60px 60px;
+    background-color: yellow;
+    grid-template-areas: "copy copy"
+                    "iconos iconos";
+                    
+}
+
+.sociales li{
+    list-style: none;
+}
+
+.sociales li a{
+    text-decoration: none;
+    
+}
+
+.copy{
+    grid-area: copy;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+    
+}
+
+.redes{
+    grid-area: iconos;
+
+}
+
+.sociales{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.secciones{
+    
+    background-size: cover; /*EL FONDO SE ADAPTA A LA PANTALLA*/
+    height: 100vh; /*RESPECTA EL 100% ALTO DE LA VENTANA*/
+    display: flex;
+    align-items: center;/*CENTRA DE FORMA VERTICAL*/
+    justify-content: space-been;/*JUSTIFICA AL COSTADO*/
+    box-shadow: -1px 0px 5px #0000001f;
+    width: auto;
+    background: #160544;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.secciones img{
+    margin: auto;
+
+}
+.formulario2 p{
+    text-align:center;
+    text-align: justify;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-weight: bold;
+    
+    
+}
+h2{
+    font-weight: bold;
+}
+.formulario1 label{
+    font-weight: bold;
+    
+}
+
+
+.formulario1{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    background: rgb(128, 133, 126);
+    border-radius: 10px;
+    margin-bottom: 100px;
+    margin-left: 35%;
+}
+
+
+.formulario2{
+    text-align: center;
+    padding: 40px 0;
+    
+}
